@@ -21,6 +21,12 @@ A codespace will open in a web-based version of Visual Studio Code. The [dev con
 
 **Note**: Dev containers is an open spec which is supported by [GitHub Codespaces](https://github.com/codespaces) and [other tools](https://containers.dev/supporting).
 
+# Getting Started with Gitpod
+
+To quickly start, open this link: [https://gitpod.io/#github.com/containerd/containerd](https://gitpod.io/#github.com/containerd/containerd) to create a CDE for this repository.
+
+A [CDE](https://www.gitpod.io/cde) will be created for you with your preferred editor (such as VSCode, Jetbrains, or SSH). All the necessary dependencies are automatically installed, and the containerd source code will be pre-built according to the [.gitpod.yml](/.gitpod.yml) file, this allows you to get started in just a few seconds. When using Gitpod, you can directly refer to the [testing](#testing-containerd) step.
+
 ## Build requirements
 
 To build the `containerd` daemon, and the `ctr` simple test client, the following build system dependencies are required:
